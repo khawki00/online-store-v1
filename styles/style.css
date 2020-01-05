@@ -61,7 +61,7 @@ body {
   margin-right: .7rem; }
 
 .header {
-  background-image: linear-gradient(rgba(179, 32, 32, 0.541), rgba(196, 39, 39, 0.555)), url("./../../../images/header-background.jpg");
+  background-image: linear-gradient(rgba(179, 32, 32, 0.541), rgba(196, 39, 39, 0.555)), url("./../images/header-background.jpg");
   height: 100vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -225,7 +225,7 @@ body {
     margin-bottom: 2rem; }
   .history__img--container {
     width: 40%;
-    background-image: url("../../../images/assorted-clothes-996329.jpg");
+    background-image: url("../images/assorted-clothes-996329.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
