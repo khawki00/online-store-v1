@@ -1,0 +1,44 @@
+.history {
+    padding: 4rem 2rem 1rem 0;
+
+    &__content {
+        display: flex;
+        margin-bottom: 2rem;
+    }
+
+    &__img--container {
+        width: 40%;
+        // height: 100vh;
+        background-image: url('../../../images/assorted-clothes-996329.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        backface-visibility: hidden;
+
+        margin-right: 2rem;
+       
+
+        clip-path: polygon(0 0, 100% 0, 30% 100%, 0 100%);
+     
+    }
+
+    &__text {
+        width: 60%;
+    }
+
+    &__title {
+        font-size: 1.6rem;
+        margin-top: 0;
+    }
+
+    &__desc {
+        font-size: 1.2rem;
+        line-height: 3.0;
+        color: #999;
+        margin-bottom: 2rem;
+    }
+
+    
+    
+
+}

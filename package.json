@@ -1,0 +1,19 @@
+{
+  "name": "online-store",
+  "version": "1.0.0",
+  "description": "online store",
+  "main": "index.js",
+  "scripts": {
+    "compiler": "node-sass styles/sass/style.scss styles/style.css -w",
+    "prefix": "postcss styles/style.css -u postcss-prefixer -o styles/output.css"
+  },
+  "author": "keesha hawkins",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "devDependencies": {
+    "postcss-cli": "^6.1.3",
+    "postcss-prefixer": "^2.1.2"
+  }
+}

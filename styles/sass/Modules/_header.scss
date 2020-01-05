@@ -1,0 +1,49 @@
+.header {
+    background-image: linear-gradient(rgba(179, 32, 32, 0.541), rgba(196, 39, 39, 0.555)),url('./../../../images/header-background.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__hero-content {
+        width: 50%;
+  
+        text-align: center;
+        padding: 1rem 0;
+        margin: 0 auto;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    &__title {
+        font-size: 3rem;
+        color: #fff;
+        @include phone {
+            margin: 3rem 0 0 0;
+        }
+
+    }
+
+    &__description {
+        font-size: 1.3rem;
+        color: #fff;
+        margin-bottom: 2.2rem;
+
+        @include phone {
+            font-size: 1rem;
+        }
+    }
+
+
+}
+
+.category__btn {
+    text-decoration: none;
+    color: #000;
+    background-color: orange;
+    padding: .6rem 1rem;
+}
