@@ -10,7 +10,7 @@
   "author": "keesha hawkins",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.1"
   },
   "devDependencies": {
     "postcss-cli": "^6.1.3",
